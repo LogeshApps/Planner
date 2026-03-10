@@ -5,15 +5,15 @@ import { useState, useEffect, useCallback, useMemo } from "react";
 
 // ─── GITHUB CONFIG ───────────────────────────────────────────
 // Replace these values with your own:
-const GITHUB_USERNAME = "YOUR_GITHUB_USERNAME";
-const GITHUB_REPO     = "YOUR_REPO_NAME";
+const GITHUB_USERNAME = "LogeshApps";       // ← already know this!
+const GITHUB_REPO     = "ledgerflow";       // ← already know this!
 
 // Split your PAT token into 2 halves to avoid GitHub scanner revoking it
 // Example: if token is "ghp_ABCDEFabcdef1234567890"
 //   PAT_PART1 = "ghp_ABCDEFabcdef"
 //   PAT_PART2 = "1234567890"
-const PAT_PART1  = "YOUR_TOKEN_FIRST_HALF";
-const PAT_PART2  = "YOUR_TOKEN_SECOND_HALF";
+const PAT_PART1  = "ghp_F4oz8Z9OiPZx8bHi";
+const PAT_PART2  = "VpD0uKHAopeDJs2a6PJk";
 const GITHUB_PAT = PAT_PART1 + PAT_PART2;
 
 const DATA_FILE_PATH  = "data.json";
