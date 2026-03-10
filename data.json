@@ -1,0 +1,9 @@
+{
+  "customers": [],
+  "workers": [],
+  "transactions": [],
+  "companyName": "My Company",
+  "companyAddress": "",
+  "companyPhone": "",
+  "users": [{"id":"u1","username":"admin","password":"admin123","role":"admin"}]
+}
